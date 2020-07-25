@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>숫자 10개의 평균값 구하기</title>
+    <script>
+        var sum = 0;
+        var i = 1;
+        var totalNumbers = Number(prompt("숫자의 개수를 입력하세요."));
+
+        while(i<totalNumbers){
+            var value = prompt(i+"번 숫자를 입력하세요.");
+
+            sum += Number(value);
+            i++;
+        }
+
+        var avg = sum/totalNumbers;
+        alert('평균값: ' + avg);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
